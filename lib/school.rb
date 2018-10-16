@@ -22,4 +22,5 @@ attr_accessor :roster
     end
     @roster[grade] << name
   end
+  
 end
