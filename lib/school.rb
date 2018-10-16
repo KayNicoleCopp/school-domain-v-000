@@ -3,7 +3,7 @@ attr_accessor :roster
 
   def initialize(name)
     @name = name
-    roster.new_array 
+    @roster = []
   end
 
   def name=(name)
