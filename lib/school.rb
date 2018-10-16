@@ -13,4 +13,8 @@ attr_accessor :roster
   def name
     @name
   end
+
+  def add_student(name)
+    roster << name
+  end
 end
