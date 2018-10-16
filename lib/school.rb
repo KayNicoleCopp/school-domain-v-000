@@ -27,4 +27,9 @@ attr_accessor :roster
     @roster[grade] << name
   end
 
+  def grade(grade)
+    @grade = grade
+    @roster[grade]
+  end
+
 end
